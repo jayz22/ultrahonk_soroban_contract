@@ -4,6 +4,7 @@ use num_bigint::BigUint;
 use std::str::FromStr;
 
 // BN254 prime modulus
+// TODO: is this correct? this is the subgroup order
 const P: &str = "21888242871839275222246405745257275088548364400416034343698204186575808495617";
 
 #[derive(Debug, Clone, Copy, PartialEq)]
